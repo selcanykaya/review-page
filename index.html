@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Review Sayfası</title>
+</head>
+<body class="bg-gray-50">
+
+  <!-- NAVBAR -->
+  <nav class="w-full flex justify-between items-center p-5 bg-white shadow">
+    <h1 class="text-2xl font-bold">Brand</h1>
+    <ul class="flex items-center gap-6">
+      <li><a href="#" class="hover:text-blue-600">Home</a></li>
+      <li><a href="#" class="hover:text-blue-600">Reviews</a></li>
+      <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="h-[35vh] bg-gray-200 flex flex-col items-center justify-center text-center px-4">
+    <h2 class="text-4xl font-bold mb-3">Gerçek Kullanıcı Deneyimleri</h2>
+    <p class="text-gray-700 max-w-xl mb-6">
+      Hizmetimiz hakkında yapılan yorumları keşfedin. Müşterilerimizin bizim hakkımızdaki düşünceleri burada.
+    </p>
+ <div class="flex gap-4">
+  <button class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+    Daha Fazla Bilgi
+  </button>
+  <a href="contact.html" class="px-6 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 inline-block text-center">
+    Yorum Yap
+  </a>
+</div>
+  </section>
+
+  <!-- YORUM KISMI -->
+  <section class="py-12 px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Kullanıcı Yorumları</h3>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-5xl mx-auto">
+
+      <!-- Kart 1 -->
+      <div class="bg-white shadow-md p-6 rounded-xl min-h-[150px] flex flex-col justify-between">
+        <p class="text-gray-700 mb-4">
+          “Harika bir deneyimdi! Hizmet çok hızlı ve kaliteli. Tekrar tercih edeceğimden hiç şüphem yok.”
+        </p>
+        <span class="font-semibold bg-blue-600 text-white px-3 py-1 rounded w-fit">
+          Ayşe K.
+        </span>
+      </div>
+
+      <!-- Kart 2 -->
+      <div class="bg-white shadow-md p-6 rounded-xl min-h-[150px] flex flex-col justify-between">
+        <p class="text-gray-700 mb-4">
+          “Kesinlikle tavsiye ederim. Çok memnun kaldım. Hem fiyat hem kalite açısından beklentimi fazlasıyla karşıladı.”
+        </p>
+        <span class="font-semibold bg-blue-600 text-white px-3 py-1 rounded w-fit">
+          Mehmet T.
+        </span>
+      </div>
+
+      <!-- Kart 3 -->
+      <div class="bg-white shadow-md p-6 rounded-xl min-h-[150px] flex flex-col justify-between">
+        <p class="text-gray-700 mb-4">
+          “Müşteri desteği çok ilgiliydi, her soruma hızlı yanıt aldım. Hizmetin arkasında duran bir ekip olması güven veriyor.”
+        </p>
+        <span class="font-semibold bg-blue-600 text-white px-3 py-1 rounded w-fit">
+          Elif S.
+        </span>
+      </div>
+
+      <!-- Kart 4 -->
+      <div class="bg-white shadow-md p-6 rounded-xl min-h-[150px] flex flex-col justify-between">
+        <p class="text-gray-700 mb-4">
+          “Fiyat performans açısından mükemmel bir seçenek. Sunulan hizmet kalitesi gerçekten baştan sona tatmin ediciydi.”
+        </p>
+        <span class="font-semibold bg-blue-600 text-white px-3 py-1 rounded w-fit">
+          Can A.
+        </span>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
